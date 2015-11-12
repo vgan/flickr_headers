@@ -1,0 +1,9 @@
+# flickr keys
+FLICKR_API_KEY =  ''
+FLICKR_API_SECRET = ''
+
+# twitter keys
+TWITTER_API_KEY = ''
+TWITTER_API_SECRET = ''
+TWITTER_TOKEN = ''
+TWITTER_TOKEN_SECRET = ''
