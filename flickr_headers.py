@@ -11,7 +11,7 @@ auth = tweepy.OAuthHandler(TWITTER_API_KEY,TWITTER_API_SECRET)
 auth.set_access_token(TWITTER_TOKEN,TWITTER_TOKEN_SECRET)
 api = tweepy.API(auth)
 
-photos = flickr.photos.search(tags="stevecvardotcom",format="parsed-json",per_page="500") # or use text= instead of tags for full text search
+photos = flickr.photos.search(tags="waterfall",format="parsed-json",per_page="500",safe_search="1",is_commons="true") # or use text= instead of tags for full text search
 image = 'header.jpg'
 total = int(photos['photos']['total'])
 photosize = 'b' # b is 1024 on long side -  see: http://www.flickr.com/services/api/misc.urls.html 
