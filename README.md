@@ -13,6 +13,6 @@ Requirements
 Notes
 -----
   - Just add your keys to flickr_headers_keys.py
-  - color sampling and k-means clustering basd on <a href="http://charlesleifer.com/blog/using-python-and-k-means-to-find-the-dominant-colors-in-images/">this post</a> by Charles Leifer.
+  - color sampling and k-means clustering based on <a href="http://charlesleifer.com/blog/using-python-and-k-means-to-find-the-dominant-colors-in-images/">this post</a> by Charles Leifer.
   
   
